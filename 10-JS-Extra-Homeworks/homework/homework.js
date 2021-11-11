@@ -185,13 +185,9 @@ function buscoInterseccion(arreglo1, arreglo2){
   for(var i=0; i<arreglo1.length;i++){
     for(var j=0;j<arreglo2.length;j++){
       if(arreglo1[i]===arreglo2[j]){
-        array.push(arreglo1[i]);
-        
+        array.push(arreglo1[i]); 
       }
-
     }
-
-
   }
   return array;
 }
